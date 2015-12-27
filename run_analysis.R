@@ -42,5 +42,7 @@ data<-df[c(2,3,mean_and_std)]  # filter dataset for only activity lables,subject
 library(dplyr)
 group_by_subject<-group_by(data,activity_lable,subject)
 tidy_average_by_activity_and_subject<-as.data.frame(summarise_each(group_by_subject,funs(mean)))
+tidy_average_by_activity_and_subject
 
 write.table(tidy_average_by_activity_and_subject,"tidy_average_by_activity_and_subject.txt",row.name=FALSE)
+

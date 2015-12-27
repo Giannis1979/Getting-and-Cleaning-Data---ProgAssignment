@@ -1,4 +1,4 @@
-setwd("C:/Users/John/Documents/Coursera/Getting and Cleaning Data/Project/UCI HAR Dataset/")
+#setwd("C:/Users/John/Documents/Coursera/Getting and Cleaning Data/Project/UCI HAR Dataset/")
 
 # read field names
 activity_lables<-read.table("activity_labels.txt") #activity lables (1 WALKING, 2 WALKING_UPSTAIRS,3 WALKING_DOWNSTAIRS,4 SITTING, 5 STANDING,6 LAYING)

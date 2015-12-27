@@ -26,10 +26,22 @@ The dataset is then divided in two parts and they can be used separately.
 1. Inertial sensor data 
 - Raw triaxial signals from the accelerometer and gyroscope of all the trials with with participants. 
 - The labels of all the performed activities. 
+- 
 
 2. Records of activity windows. Each one composed of: 
 - A 561-feature vector with time and frequency domain variables. 
 - Its associated activity label. 
 - An identifier of the subject who carried out the experiment. 
 
-The dataset includes the following files: 
+The raw triaxial acceleration signal for the experiment number XX and associated to the user number YY. Every row is one acceleration sample (three axis) captured at a frequency of 50Hz.
+The raw triaxial angular speed signal for the experiment number XX and associated to the user number YY. Every row is one angular velocity sample (three axis) captured at a frequency of 50Hz. 
+
+
+#Output 
+Column1: Activity Lables - six basic activities: three static postures (standing, sitting, lying) and three dynamic activities
+(walking, walking downstairs and walking upstairs)
+Column2: Subject - The experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years
+Column 3- 79 - average means and standardeviations 
+
+
+
